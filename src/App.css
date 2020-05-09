@@ -1,0 +1,39 @@
+html {
+  scroll-behavior: smooth;
+  transition: all 0.8s;
+}
+
+.left-arrow {
+  color: white;
+  position: fixed;
+  top: 5%;
+  left: 5%;
+}
+
+.right-arrow {
+  color: white;
+  position: fixed;
+  top: 5%;
+  right: 5%;
+}
+
+.img-back {
+  width: 3250px;
+  height: 700px;
+  overflow-y: hidden;
+  max-width: 3250px;
+  min-width: 1920px;
+  background-repeat: no-repeat;
+  transition: ease;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  background-image: url(https://odros.com/vFairs/assets/images/fair/hall.jpg);
+}
+
+*{
+  -ms-overflow-style: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
